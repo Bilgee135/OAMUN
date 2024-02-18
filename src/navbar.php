@@ -4,7 +4,7 @@ include './bootstrap.php'
 
 <link rel="stylesheet" href="./styles/navbar.css">
 
-<nav class="navbar navbar-expand-lg">
+<nav class="navbar navbar-expand-lg sticky-top">
   <button style="margin-left: 5%;" class="navbar-toggler no-border" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -33,16 +33,16 @@ include './bootstrap.php'
     </svg>
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link rubik" aria-current="page" href="#">HOME</a>
+          <a class="nav-link rubik" aria-current="page" href="index.php">HOME</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link rubik" href="#">REGISTRATION</a>
+          <a class="nav-link rubik" href="register.php">REGISTRATION</a>
         </li>
         <li class="nav-item">
           <a class="nav-link rubik" href="#">POSITION PAPER GUIDE</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link rubik" aria-disabled="true">COMMITTEES</a>
+          <a class="nav-link rubik" href="committees.php">COMMITTEES</a>
         </li>
       </ul>
     </div>

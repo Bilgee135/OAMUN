@@ -10,7 +10,7 @@
 
 <body>
     <?php
-    include './navbarv2.php';
+    include './navbar.php';
     ?>
     <div class="hero-section"></div>
     <div class="container-1">
