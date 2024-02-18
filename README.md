@@ -2,4 +2,4 @@
 
 OAMUN registration website repository hhe<3
 
-Before pushing, export and update the database file (oamun.sql) when you db is updated.
+Before pushing, export and update the database file (oamun.sql) when table is updated.
