@@ -13,7 +13,6 @@
         <?php
         include 'navbar.php';
         ?>
-        Hello
     </div>
 
 </body>
