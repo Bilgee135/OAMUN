@@ -40,7 +40,7 @@ textarea {
 
 .btn-primary {
     background-color: #1f4fa1 !important;
-    transition: 0.4s;
+    font-weight: 600 !important;
 }
 
 .btn-primary:hover {

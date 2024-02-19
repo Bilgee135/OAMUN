@@ -35,6 +35,19 @@
     margin-top: 20px;
 }
 
+.apply-animation {
+    animation: deesheeDooshoo 0.4s infinite alternate;
+}
+
+@keyframes deesheeDooshoo {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(5px);
+    }
+}
+
 .middle {
     width: 100%;
     height: 100vh;
