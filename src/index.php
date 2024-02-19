@@ -17,6 +17,9 @@
             <h1>OAMUN I</h1>
             <h3>March 16th, 2024</h3>
         </div>
+        <div>
+            <a href="#registerbutton" style="color: white;">PRESS</a> <!-- Eniig guitseeh -->
+        </div>
     </div>
     <div class="middle">
         <div class="about">
@@ -36,7 +39,7 @@
 
         </div>
         <div class="register-area">
-            <div class="button-area">
+            <div class="button-area" id="registerbutton">
                 <hr>
                 <h1>Register</h1>
                 <hr>
