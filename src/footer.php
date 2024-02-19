@@ -13,7 +13,7 @@
         </section>
         <section class="sec aboutus">
             <h2>About Us</h2>
-            <p>Найган ургах ногоо модоо хугалаж болохгүйг би мэднэ</p>
+            <p>OAMUN is a conference led by Olonlog IB Year 2 students. We consist of 10 members, each with their own respective roles.</p>
             <ul class="sci">
                 <li><a href="https://www.facebook.com/olonlog/"><i class="fa-brands fa-facebook-f"></i></a></li>
                 <li><a href="https://www.youtube.com/@olonlogacademy939"><i class="fa-brands fa-youtube"></i></a></li>
@@ -21,8 +21,8 @@
         </section>
         <section class="sec contact">
             <h2>Contact Us</h2>
-            <p><strong>Email:</strong> info@olonlog.edu.mn</p>
-            <p><strong>Phone:</strong> +976 9499 9125</p>
+            <p><strong>Email:</strong> oas20171667@olonlog.edu.mn</p>
+            <p><strong>Phone:</strong> +976 9923 4704</p>
         </section>
     </div>
     <hr>
