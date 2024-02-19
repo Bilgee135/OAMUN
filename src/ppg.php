@@ -29,7 +29,9 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum laoreet massa, blandit tempus ex mattis sed. Curabitur pellentesque, felis in lacinia commodo, turpis nunc rhoncus nunc, ullamcorper auctor dui dolor vitae nisi. Duis imperdiet porta bibendum. Aliquam pellentesque commodo molestie.</p>
             <p style="font-size: 20px; margin-top: 70px"><b>Position Paper Formatting</b></p>
         </div>
-        <div class="paperformatimg"></div>
+        <div class="row w-100 h-100" style="display: flex; justify-content: center">
+            <img style="aspect-ratio: auto; margin-bottom: 100px" class="col-lg-5" src="../public/images/sharpen_Sample-Position-Paper.png"/>
+        </div>
     </div>
 </body>
 
