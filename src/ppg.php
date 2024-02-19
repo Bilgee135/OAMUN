@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OAMUN</title>
+    <title>Position Paper Guide</title>
     <link rel="stylesheet" href="./styles/ppg.css">
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
 </head>
 
 <body>
