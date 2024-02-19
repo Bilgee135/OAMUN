@@ -57,11 +57,8 @@
         </div>
     </div>
     <?php
-        include 'footer.php';
+    include 'footer.php';
     ?>
-    <footer>
-
-    </footer>
 </body>
 
 </html>
