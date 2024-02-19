@@ -23,7 +23,7 @@
             </div>
         </div>
     </div>
-    <div class="infocontainer-1 row" style="display: flex; justify-content: center;">
+    <div class="infocontainer-1 row" style="display: flex; justify-content: center; margin-bottom: 70vh">
         <div class="accordion accordion-flush col-lg-11" id="accordionFlushExample">
             <div class="accordion-item" style="margin-bottom: 30px;">
                 <h2 class="accordion-header">
@@ -104,10 +104,9 @@
             </div>
         </div>
     </div>
-    <!-- <?php
-            include 'footer.php';
-            ?> -->
-    <!-- Footer does not work here. Solve please -->
+    <?php
+        include 'footer.php';
+    ?>
 </body>
 
 </html>
