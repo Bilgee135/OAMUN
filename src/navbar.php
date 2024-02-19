@@ -39,7 +39,7 @@ include './bootstrap.php'
           <a class="nav-link rubik" href="register.php">REGISTRATION</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link rubik" href="#">POSITION PAPER GUIDE</a>
+          <a class="nav-link rubik" href="ppg.php">POSITION PAPER GUIDE</a>
         </li>
         <li class="nav-item">
           <a class="nav-link rubik" href="committees.php">COMMITTEES</a>
