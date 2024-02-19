@@ -24,3 +24,21 @@
     display: flex;
     align-items: center;
 }
+
+.infocontainer-1 {
+    width: 100%;
+    height: 100px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.accordion-button.no-border:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.accordion-button.no-border {
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
