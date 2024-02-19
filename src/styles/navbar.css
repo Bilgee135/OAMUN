@@ -29,6 +29,12 @@ nav ul li a {
     color: rgb(126, 126, 126);
     font-size: 14px;
     text-decoration: none;
+    border-bottom: 3px solid transparent !important;
+    transition: 0.4s;
+}
+
+nav ul li a:hover {
+    border-bottom: 3px solid #1f4fa1 !important;
 }
 
 /*  fonts  */
