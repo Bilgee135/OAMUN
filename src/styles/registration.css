@@ -1,0 +1,48 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none !important;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+.page {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../public/images/14-1.jpg) !important;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forum {
+    width: 27% !important;
+    height: auto;
+    padding: 25px;
+}
+
+.forum-head {
+    background-color: #1f4fa1;
+    width: 100% !important;
+}
+
+textarea {
+    height: 200px !important;
+}
+
+.btn-primary {
+    background-color: #1f4fa1 !important;
+    font-weight: 600 !important;
+}
+
+.btn-primary:hover {
+    background-color: rgba(31, 79, 161, 0.9) !important;
+}

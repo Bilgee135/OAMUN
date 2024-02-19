@@ -1,15 +1,7 @@
-<?php
-include './bootstrap.php'
-?>
+<link rel="stylesheet" href="styles/navbar.css">
 
-<link rel="stylesheet" href="./styles/navbar.css">
-
-<nav class="navbar navbar-expand-lg sticky-top">
-  <button style="margin-left: 5%;" class="navbar-toggler no-border" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" style="padding-left: 6.5%" id="navbarNav">
-    <svg class="d-none d-lg-block" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="OBJECTS" x="0px" y="0px" viewBox="0 0 127.8 27.8" style="enable-background:new 0 0 127.8 27.8;" xml:space="preserve">
+<nav>
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="OBJECTS" x="0px" y="0px" viewBox="0 0 127.8 27.8" style="enable-background:new 0 0 127.8 27.8;" xml:space="preserve">
         <style type="text/css">
             .st0 {
                 fill: #1F4FA1;
@@ -31,19 +23,16 @@ include './bootstrap.php'
             <path class="st1" d="M105.5,16.9l1,5.1h1.4l-1.8-6.6C105.9,15.9,105.7,16.4,105.5,16.9z"></path>
         </g>
     </svg>
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link rubik" aria-current="page" href="index.php">HOME</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link rubik" href="register.php">REGISTRATION</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link rubik" href="ppg.php">POSITION PAPER GUIDE</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link rubik" href="committees.php">COMMITTEES</a>
-        </li>
-      </ul>
-    </div>
+    <ul>
+        <li><a href="#" class="rubik">HOME</a></li>
+        <li><a href="#" class="rubik">REGISTRATION</a></li>
+        <li><a href="#" class="rubik">POSITION PAPER GUIDE</a></li>
+        <li><a href="#" class="rubik">COMMITTEES</a></li>
+    </ul>
 </nav>
+
+<?php
+
+// OLD NAVBAR
+
+?>

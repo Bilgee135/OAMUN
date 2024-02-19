@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.hero-section {
+    width: 100%;
+    height: 100px;
+    background-image: url(../../public/images/backmun.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.container-1 {
+    width: 100%;
+    height: 200px;
+    display: flex;
+}
+
+.container-2 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.infocontainer-1 {
+    width: 100%;
+    height: 100px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.accordion-button.no-border:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.accordion-button.no-border {
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
