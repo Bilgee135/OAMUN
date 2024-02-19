@@ -29,19 +29,22 @@
             </a>
         </div>
     </div>
-    <div class="middle" id="info">
+    <div class="middle" id="info" style="margin-bottom: 150px;">
         <div class="about">
             <div class="welcome-text">
                 <h1>Welcome to OAMUN!</h1>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae nisi sit amet nibh
-                    congue congue. Ut sollicitudin sit amet ligula id blandit. Integer quis elementum nunc.
-                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
-                    Sed eget urna vel elit fermentum rutrum a viverra magna. Praesent mollis sit amet quam sed
-                    laoreet. Phasellus elementum diam et metus tristique eleifend. Suspendisse ornare ante vitae
-                    placerat ultrices. Mauris nec viverra nibh. Cras tincidunt vulputate elit, a tempus elit sollicitudi
-                    sit amet. Praesent augue ligula, aliquet sed leo sit amet, malesuada fringilla nulla.
-
+                    The Olonlog Academy Model United Nations (OAMUN) is a student-run conference that simulates the 
+                    United Nations. You will take the role of a delegate, representing a specific country or an organization, 
+                    and work collaboratively with others to tackle complex issues. 
+                </p>
+                <h2>Why Participate?</h2>
+                <p>
+                <ul class="list1">
+                    <li><b>Explore Global Issues</b>: Dive deep into topics such as war, poverty, sustainability and global security. </li>
+                    <li><b>Develop Your Skills</b>: Enhance your critical thinking, public speaking, negotiation, manipulation, and research abilities.</li>
+                    <li><b>Enrich Your College Application</b> While OAMUN may not offer direct university recognition, participating could equip you with the skills and experience needed to excel in other recognized conferences, including Ulaanbaatar MUN and even potentially Harvard MUN or Yale MUN. </li>
+                </ul>
                 </p>
             </div>
 
