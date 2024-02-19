@@ -37,3 +37,12 @@ body {
 textarea {
     height: 200px !important;
 }
+
+.btn-primary {
+    background-color: #1f4fa1 !important;
+    font-weight: 600 !important;
+}
+
+.btn-primary:hover {
+    background-color: rgba(31, 79, 161, 0.9) !important;
+}
