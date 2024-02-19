@@ -18,10 +18,10 @@
             <h3>March 16th, 2024</h3>
         </div>
         <div>
-            <a href="#registerbutton" style="color: white;">PRESS</a> <!-- Eniig guitseeh -->
+            <a href="#info" style="color: white;">PRESS</a> <!-- Eniig guitseeh -->
         </div>
     </div>
-    <div class="middle">
+    <div class="middle" id="info">
         <div class="about">
             <div class="welcome-text">
                 <h1>Welcome to OAMUN!</h1>
