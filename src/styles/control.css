@@ -1,0 +1,16 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../public/images/2.jpeg);
+    background-position: center;
+    background-size: cover;
+
+}

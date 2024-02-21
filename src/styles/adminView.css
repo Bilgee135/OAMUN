@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Gluten:wght@200;300&family=Lato:ital@1&family=Pacifico&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+body {
+    width: 100%;
+    background-image: url(../../public/images/2.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+

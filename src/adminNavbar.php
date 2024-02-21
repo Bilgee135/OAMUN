@@ -1,4 +1,57 @@
 <?php
-// admin navbar is only with a button to see the registration table
+include './bootstrap.php'
 
+// Admin provides access to the list of participants
 ?>
+
+<link rel="stylesheet" href="./styles/navbar.css">
+
+<nav class="navbar navbar-expand-lg sticky-top">
+  <button style="margin-left: 5%;" class="navbar-toggler no-border" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" style="padding-left: 6.5%" id="navbarNav">
+    <svg class="d-none d-lg-block" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="OBJECTS" x="0px" y="0px" viewBox="0 0 127.8 27.8" style="enable-background:new 0 0 127.8 27.8;" xml:space="preserve">
+        <style type="text/css">
+            .st0 {
+                fill: #1F4FA1;
+            }
+
+            .st1 {
+                fill: #FFC114;
+            }
+        </style>
+        <g>
+            <circle class="st0" cx="9.6" cy="13.9" r="8.1"></circle>
+            <circle class="st0" cx="42.1" cy="13.9" r="8.1"></circle>
+            <rect x="52.3" y="5.8" class="st0" width="16.2" height="16.2"></rect>
+            <polygon class="st0" points="32,22 15.8,22 32,5.8  "></polygon>
+            <polygon class="st0" points="86.8,22 70.5,22 86.8,5.8  "></polygon>
+            <polygon class="st0" points="110,5.8 126.3,5.8 110,22  "></polygon>
+            <path class="st0" d="M101.3,9.5c-1.2-1.2-2.7-1.8-4.4-1.8h-0.1c-1.7,0-3.2,0.7-4.4,1.8s-1.8,2.7-1.8,4.4c0,3.4,2.8,6.2,6.2,6.2   c0,0,0,0,0,0c1.7,0,3.2-0.7,4.4-1.8c1.2-1.2,1.8-2.7,1.8-4.4C103.1,12.2,102.5,10.7,101.3,9.5z M100.3,13.6c0-0.7-0.2-1.5-0.4-2.2   c0.5-0.2,1-0.4,1.4-0.7c0.6,0.8,1,1.8,1,2.9H100.3z M102.3,14.2c-0.1,1.1-0.4,2.1-1,2.9c-0.5-0.3-0.9-0.5-1.4-0.7   c0.2-0.6,0.3-1.2,0.4-1.8c0-0.1,0-0.3,0-0.4H102.3z M101,10.3c-0.4,0.3-0.8,0.5-1.3,0.7c-0.3-0.7-0.7-1.4-1.2-2   c-0.1-0.1-0.2-0.2-0.3-0.3C99.2,8.9,100.2,9.5,101,10.3z M97.3,19.3c0,0-0.1,0-0.1,0v-3c0.7,0,1.4,0.1,2,0.4   C98.8,17.7,98.1,18.6,97.3,19.3z M95.8,18.6c-0.5-0.6-0.9-1.2-1.2-1.9c0.7-0.2,1.3-0.3,2-0.4v3c0,0-0.1,0-0.1,0   C96.2,19.1,96,18.8,95.8,18.6z M96.6,8.5C96.6,8.5,96.6,8.5,96.6,8.5l0.1,3c-0.7,0-1.4-0.1-2-0.3C95,10.1,95.7,9.2,96.6,8.5z    M98,9.3c0.5,0.6,0.9,1.2,1.1,1.9c-0.7,0.2-1.3,0.3-2,0.3v-3c0,0,0,0,0.1,0C97.5,8.7,97.8,9,98,9.3z M99.3,11.6   c0.2,0.6,0.3,1.3,0.4,2h-2.6V12C97.9,12,98.6,11.9,99.3,11.6z M96.6,12v1.6h-2.6c0-0.1,0-0.2,0-0.3c0-0.6,0.2-1.1,0.3-1.7   C95.1,11.9,95.9,12,96.6,12z M96.6,14.2v1.6c-0.7,0-1.5,0.2-2.2,0.4c-0.2-0.6-0.3-1.3-0.3-2H96.6z M97.2,15.8v-1.6h2.6   c0,0.7-0.1,1.3-0.3,2C98.6,15.9,97.9,15.8,97.2,15.8z M95.6,8.6c-0.7,0.7-1.2,1.5-1.5,2.4c-0.4-0.2-0.9-0.4-1.3-0.7   c0.1-0.1,0.1-0.1,0.2-0.2C93.7,9.3,94.7,8.8,95.6,8.6z M93.5,13.3c0,0.1,0,0.2,0,0.4h-2.1c0.1-1.1,0.4-2.1,1-2.9   c0.5,0.3,0.9,0.6,1.4,0.7C93.7,12,93.6,12.7,93.5,13.3z M93.9,16.3c-0.5,0.2-1,0.4-1.4,0.7c-0.6-0.8-1-1.8-1-2.9h2.1   C93.5,14.9,93.7,15.6,93.9,16.3z M92.8,17.5c0.4-0.3,0.8-0.5,1.3-0.7c0.3,0.7,0.7,1.4,1.3,2.1c0.1,0.1,0.1,0.2,0.2,0.3   C94.5,18.9,93.5,18.3,92.8,17.5z M98.2,19.2c0.6-0.7,1.1-1.5,1.5-2.3c0.4,0.2,0.9,0.4,1.3,0.7c-0.1,0.1-0.1,0.1-0.2,0.2   C100,18.4,99.2,18.9,98.2,19.2z"></path>
+            <path class="st1" d="M105.6,5.8c-0.2,2.9-0.7,7.1-1.5,9.1c-1.6,4.5-4.4,6.1-7.3,6.1c0,0,0,0-0.1,0c-0.1,0-0.2,0-0.3,0   c-3.7-0.2-6.7-3.3-6.7-7c0-3.9,3.2-7.1,7.1-7.1s7.1,3.2,7.1,7.1c0,0,0,0,0,0c0.2-0.8,0.4-1.8,0.5-3c-1.2-3-4.1-5.1-7.6-5.1   c-4.5,0-8.1,3.6-8.1,8.1c0,4.5,3.6,8.1,8.1,8.1v0c0,0,0.1,0,0.1,0c1.3,0,3.8-0.1,6.3-2.8c3.6-4,4.7-13.4,4.7-13.4H105.6z"></path>
+            <path class="st1" d="M105.5,16.9l1,5.1h1.4l-1.8-6.6C105.9,15.9,105.7,16.4,105.5,16.9z"></path>
+        </g>
+    </svg>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link rubik" aria-current="page" href="index.php">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link rubik" href="register.php">REGISTRATION</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link rubik" href="ppg.php">POSITION PAPER GUIDE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link rubik" href="committees.php">COMMITTEES</a>
+        </li>
+        <li class="nav-item">
+          <a class="btn btn-primary rubik" href="#">Table of Participants</a>
+        </li>
+        <li class="nav-item">
+          <a class="btn btn-danger rubik" href="logout.php">Log out</a>
+        </li>
+      </ul>
+    </div>
+</nav>
