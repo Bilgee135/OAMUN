@@ -6,35 +6,37 @@
     text-decoration: none;
     font-family: "Rubik", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 300;
     font-style: normal;
 }
 
 .hero-section {
     width: 100%;
-    height: 88vh;
+    height: auto;
     background-image: url(../../public/images/backmun2.png);
     background-position: center;
     background-size: cover;
+    position: relative;
 }
 
 
 .intro-text {
-    position: absolute;
-    top: 28%;
+    width: auto;
+    position: relative;
+    top: 20%;
     left: 16%;
     color: white;
+    margin-top: 30px;
 }
 
 .intro-text h1 {
-    font-size: 130px;
-    
+    font-size: 45px;
 }
 
 .intro-text h3 {
-    font-size: 35px;
-    margin-top: 20px;
+    font-size: 20px;
+    margin-top: 5px;
 }
+
 
 
 .list1 li {
@@ -43,6 +45,28 @@
 
 .apply-animation {
     animation: deesheeDooshoo 0.4s infinite alternate;
+    width: 100%; 
+    position: relative; 
+    bottom: 5px;
+}
+
+.apply-animation a {
+    color: white; 
+    text-decoration: none; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.apply-animation a i {
+    color: #ffbe02;
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+.apply-animation a h3 {
+    font-size: 15px; 
+    color: #ffbe02;
 }
 
 @keyframes deesheeDooshoo {
@@ -56,7 +80,7 @@
 
 .middle {
     width: 100%;
-    height: 100vh;
+    height: auto;
 }
 
 .about {
@@ -70,16 +94,17 @@
 
 .register-area {
     width: 100%;
-    height: 50vh;
+    height: auto;
     background-color: white;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .welcome-text {
-    width: 60%;
+
+    width: 80%;
     height: auto;
-    
     margin-top: 40px;
 }
 
@@ -88,18 +113,27 @@
 }
 
 .welcome-text h1 {
-    font-size: 40px;
+    font-size: 25px;
     font-weight: bold;
 }
 
 .welcome-text p {
-    font-size: 20px;
-    padding: 10px 50px 10px 50px;
-    line-height: 35px;
+    font-size: 17px;
+    padding: 5px 20px 5px 20px;
+    line-height: 30px;
+}
+
+.welcome-text h2 {
+    font-size: 25px;
+}
+
+.welcome-text .list1 li {
+    font-size: 17px;
+    line-height: 30px;
 }
 
 .button-area {
-    width: 30%;
+    width: 80%;
     height: auto;
     margin-top: 10px;
     text-align: center;
@@ -110,33 +144,32 @@
 }
 
 .button-area h1 {
-    font-size: 40px;
+    font-size: 25px;
     font-weight: bold;
     color: #1f4fa1;
 }
 
 .button-area h3 {
-    margin: 30px 30px 40px 0;
-    font-size: 30px;
+    text-align: center;
+    font-size: 17px;
     font-weight: 600;
+    margin-bottom: 40px;
 }
 
 .button-area a {
     text-decoration: none;
     color: white;
     background-color: #1f4fa1;
-    padding: 12px 60px 12px 60px;
+    padding: 6px 30px 6px 30px;
     border-radius: 30px;
-    font-size: 25px;    
-    border: 3px solid #1f4fa1;
+    font-size: 20px;    
     transition: 0.4s;
     box-shadow: 0px 0px 15px black;
 
 }
 
 .button-area a:hover {
-    background-color: white;
-    color: #1f4fa1;
+    background-color: rgba(31, 79, 161, 0.8) !important;
 }
 
 footer {
@@ -144,6 +177,120 @@ footer {
     height: 60vh;
     background-color: white;
 }
+
+@media screen and (min-width: 992px) {
+    .hero-section {
+        height: 88vh;
+    }
+
+    .intro-text {
+        width: auto;
+        position: relative;
+        top: 20%;
+        left: 16%;
+        color: white;
+        margin-top: 30px;
+    }
+    .intro-text h1 {
+        font-size: 130px;
+    }
+    .intro-text h3 {
+        font-size: 35px;
+        margin-top: 10px;
+    }
+
+    .apply-animation {
+        position: relative;
+        top: 55%;
+    }
+
+    .apply-animation a i {
+        color: #ffbe02;
+        margin-left: 5px;
+        font-size: 20px;
+    }
+    
+    .apply-animation a h3 {
+        font-size: 20px; 
+        color: #ffbe02;
+    }
+
+    .welcome-text {
+        width: 60%;
+        height: auto;
+        
+        margin-top: 40px;
+    }
+    
+    .welcome-text h1,p {
+        color: black;
+    }
+    
+    .welcome-text h1 {
+        font-size: 40px;
+        font-weight: bold;
+    }
+    
+    .welcome-text p {
+        font-size: 20px;
+        padding: 10px 50px 10px 50px;
+        line-height: 35px;
+    }
+    .welcome-text h2 {
+        font-size: 40px;
+    }
+    
+    .welcome-text .list1 li {
+        font-size: 20px;
+        line-height: 35px;
+    }
+    
+    .button-area {
+        width: 30%;
+        height: auto;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .button-area {
+        width: 30%;
+        height: auto;
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    .button-area hr {
+        margin: 30px 0 30px 0;
+    }
+    
+    .button-area h1 {
+        font-size: 40px;
+        font-weight: bold;
+        color: #1f4fa1;
+    }
+    
+    .button-area h3 {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 600;
+        margin-bottom: 40px;
+    }
+    
+    .button-area a {
+        text-decoration: none;
+        color: white;
+        background-color: #1f4fa1;
+        padding: 12px 60px 12px 60px;
+        border-radius: 30px;
+        font-size: 25px;    
+        transition: 0.4s;
+        box-shadow: 0px 0px 15px black;
+    
+    }
+
+    
+}
+
 
 
 

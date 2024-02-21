@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="styles/inde.css">
     <link rel="icon" type="image/x-icon" href="../favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -20,12 +21,10 @@
             <h3>March 16th, 2024</h3>
             <br>
         </div>
-        <div style=" width: 100%; position:absolute; bottom: 130px" class="apply-animation">
-            <a href="#registerbutton" style="color: white; text-decoration: none; display: flex; justify-content: center; ">
-                <h3 style="font-size: 20px; color: #ffbe02">Apply</h3>
-                <svg style="width: 20px; fill: #ffbe02; margin-left: 5px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                    <path d="M201.4 342.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 274.7 86.6 137.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z" />
-                </svg>
+        <div class="apply-animation">
+            <a href="#registerbutton">
+                <h3>Apply</h3>
+                <i class="fa-solid fa-angle-down"></i>
             </a>
         </div>
     </div>
@@ -59,9 +58,9 @@
             </div>
         </div>
     </div>
-    <?php
-    include 'footer.php';
-    ?>
+    <!-- <?php
+            include 'footer.php';
+            ?> -->
 </body>
 
 </html>
