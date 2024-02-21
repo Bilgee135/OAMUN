@@ -8,7 +8,7 @@ if (isset($_POST['submit'])) {
     $class = $_POST['class'];
     $reason = $_POST['reason'];
 
-    $oruulah = "INSERT INTO `registration`(`id`, `firstname`, `lastname`, `email`, `school`, `class`, `reason`, `agree`) VALUES ('NULL','$firstname','$lastname','$email','$school','$class','$reason')";
+    $oruulah = "INSERT INTO `registration`(`id`, `firstname`, `lastname`, `email`, `school`, `class`, `reason`) VALUES ('NULL','$firstname','$lastname','$email','$school','$class','$reason')";
 
     $result = mysqli_query($conn, $oruulah);
     if ($result) {
