@@ -37,7 +37,7 @@ if (isset($_POST['submit'])) {
     include 'navbar.php';
     ?>
     <div class="page">
-        <div class="forum rounded bg-white">
+        <div class="forum h-auto rounded bg-white">
             <div class="forum-head rounded">
                 <h1 class="text-white text-center">OAMUN Registration Forum</h1>
             </div>
