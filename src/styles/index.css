@@ -20,7 +20,7 @@
 
 
 .intro-text {
-    width: auto;
+    width: fit-content;
     position: relative;
     top: 20%;
     left: 16%;
@@ -184,7 +184,7 @@ footer {
     }
 
     .intro-text {
-        width: auto;
+        width: fit-content;
         position: relative;
         top: 20%;
         left: 16%;
@@ -201,7 +201,7 @@ footer {
 
     .apply-animation {
         position: relative;
-        top: 55%;
+        top: 52%;
     }
 
     .apply-animation a i {
