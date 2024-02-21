@@ -26,7 +26,7 @@ if (isset($_POST['submit'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration Forum</title>
+    <title>Registration Form</title>
     <link rel="stylesheet" href="styles/registration.css">
     <link rel="icon" type="image/x-icon" href="../favicon.ico">
 </head>
@@ -37,9 +37,9 @@ if (isset($_POST['submit'])) {
     include 'navbar.php';
     ?>
     <div class="page">
-        <div class="forum rounded bg-white">
+        <div class="container rounded py-3 bg-white">
             <div class="forum-head rounded">
-                <h1 class="text-white text-center">OAMUN Registration Forum</h1>
+                <h1 class="text-white text-center py-2">OAMUN Registration Form</h1>
             </div>
             <form method="POST">
                 <input name="firstname" type="text" placeholder="First name" class="form-control mt-3" required>
@@ -61,9 +61,9 @@ if (isset($_POST['submit'])) {
     </div>
 
     </form>
-    <?php
-    include 'footer.php';
-    ?>
+    <!-- <?php
+            include 'footer.php';
+            ?> -->
 </body>
 
 </html>

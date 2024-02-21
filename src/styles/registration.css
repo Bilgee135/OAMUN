@@ -8,25 +8,19 @@
 }
 
 body {
-    width: 100%;
-    height: 100vh;
-}
-
-.page {
-    width: 100%;
-    height: 100vh;
     background-image: url(../../public/images/14-1.jpg) !important;
     background-position: center;
     background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
+    height: 100vh;
+    justify-content: center !important;
+    align-items: center !important;
+
 }
 
-.forum {
-    height: auto;
-    padding: 25px;
-}s
+.page {
+    margin: 30px 20px;
+}
 
 .forum-head {
     background-color: #1f4fa1;
@@ -44,4 +38,16 @@ textarea {
 
 .btn-primary:hover {
     background-color: rgba(31, 79, 161, 0.9) !important;
+}
+
+@media screen and (min-width: 992px) {
+    .page {
+        margin: 30px 15%;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .page {
+        margin: 30px 35%;
+    }
 }
