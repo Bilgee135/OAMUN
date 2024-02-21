@@ -7,7 +7,8 @@ if (isset($_POST['submit'])) {
     $school = $_POST['school'];
     $class = $_POST['class'];
     $reason = $_POST['reason'];
-    $oruulah = "INSERT INTO `registration`(`id`, `firstname`, `lastname`, `email`, `school`, `class`, `reason`) VALUES ('NULL','$firstname','$lastname','$email','$school','$class','$reason')";
+
+    $oruulah = "INSERT INTO `registration`(`id`, `firstname`, `lastname`, `email`, `school`, `class`, `reason`, `agree`) VALUES ('NULL','$firstname','$lastname','$email','$school','$class','$reason')";
 
     $result = mysqli_query($conn, $oruulah);
     if ($result) {
@@ -36,7 +37,7 @@ if (isset($_POST['submit'])) {
     include 'navbar.php';
     ?>
     <div class="page">
-        <div class="forum h-auto rounded bg-white">
+        <div class="forum rounded bg-white">
             <div class="forum-head rounded">
                 <h1 class="text-white text-center">OAMUN Registration Forum</h1>
             </div>
@@ -47,6 +48,13 @@ if (isset($_POST['submit'])) {
                 <input name="school" type="text" placeholder="Current school" class="form-control mt-3" required>
                 <input name="class" type="text" placeholder="Grade" class="form-control mt-3" required>
                 <textarea name="reason" type="text" placeholder="Why do you want to participate?" class="form-control mt-3" required></textarea>
+                <div class="form-check mt-3">
+                    <input class="form-check-input" type="checkbox" value="checked" id="flexCheckDefault" required>
+                    <label class="form-check-label" for="flexCheckDefault">
+                        I acknowledge that I must complete a position paper for entry and that I certify that I understand basic rules and procedures* of a Model United Nations conference.
+                    </label>
+                </div>
+                <p class="mt-3 text-secondary text-center fst-italic"><span class="fw-bold">*Basic rules and procedure:</span> You know how to place forward & support a motion, to speak in unmoderated and moderated caucuses and to write a resolution.</p>
                 <button name="submit" class="btn btn-primary w-100 mt-3" type="submit" value="Register">Register</button>
             </form>
         </div>

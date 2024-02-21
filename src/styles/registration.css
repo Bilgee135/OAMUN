@@ -24,10 +24,9 @@ body {
 }
 
 .forum {
-    width: 27% !important;
     height: auto;
     padding: 25px;
-}
+}s
 
 .forum-head {
     background-color: #1f4fa1;

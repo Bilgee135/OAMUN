@@ -23,7 +23,7 @@
         <div style=" width: 100%; position:absolute; bottom: 130px" class="apply-animation">
             <a href="#registerbutton" style="color: white; text-decoration: none; display: flex; justify-content: center; ">
                 <h3 style="font-size: 20px; color: #ffbe02">Apply</h3>
-                <svg style="width: 20px; fill: #ffbe02; margin-left: 5px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <svg style="width: 20px; fill: #ffbe02; margin-left: 5px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                     <path d="M201.4 342.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 274.7 86.6 137.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z" />
                 </svg>
             </a>
@@ -34,9 +34,9 @@
             <div class="welcome-text">
                 <h1>Welcome to OAMUN!</h1>
                 <p>
-                    The Olonlog Academy Model United Nations (OAMUN) is a student-run conference that simulates the 
-                    United Nations. You will take the role of a delegate, representing a specific country or an organization, 
-                    and work collaboratively with others to tackle complex issues. 
+                    The Olonlog Academy Model United Nations (OAMUN) is a student-run conference that simulates the
+                    United Nations. You will take the role of a delegate, representing a specific country or an organization,
+                    and work collaboratively with others to tackle complex issues.
                 </p>
                 <h2>Why Participate?</h2>
                 <p>
