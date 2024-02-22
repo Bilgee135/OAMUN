@@ -19,7 +19,7 @@
   	 		</div>
   	 		<div class="footer-col">
                <h2>About Us</h2>
-                <p>OAMUN is a conference led by Olonlog IB Year 2 students. We consist of 10 members, each with their own respective roles.</p>
+                <p>OAMUN is a conference led by Olonlog IB Year 2 students. We consist of 11 students.</p>
   	 		</div>
   	 		<div class="footer-col">
                <h2>Contact Us</h2>
