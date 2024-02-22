@@ -47,7 +47,7 @@ include './bootstrap.php'
           <a class="nav-link rubik" href="committees.php">COMMITTEES</a>
         </li>
         <li class="nav-item">
-          <a class="btn btn-primary rubik" href="#">Table of Participants</a>
+          <a class="btn btn-primary rubik" href="adminView.php">Table of Participants</a>
         </li>
         <li class="nav-item">
           <a class="btn btn-danger rubik" href="logout.php">Log out</a>
