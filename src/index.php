@@ -45,6 +45,7 @@
                     <li><b>Enrich Your College Application</b> While OAMUN may not offer direct university recognition, participating could equip you with the skills and experience needed to excel in other recognized conferences, including Ulaanbaatar MUN and even potentially Harvard MUN or Yale MUN. </li>
                 </ul>
                 </p>
+                <p style="font-style: italic; color: rgb(100, 100, 100)">Note: Please use the navigation bar to see how to write a Position Paper and conference topics</p>
             </div>
 
         </div>
@@ -57,6 +58,7 @@
                 <a href="register.php">Apply</a>
             </div>
         </div>
+        
     </div>
     <?php
     include 'footer.php';
