@@ -46,3 +46,7 @@
     background-size: cover;
     margin-bottom: 100px;
 }
+
+.example-text {
+    text-align: justify !important;
+}

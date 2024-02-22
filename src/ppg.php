@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Position Paper Guide</title>
-    <link rel="stylesheet" href="./styles/ppg.css">
+    <link rel="stylesheet" href="./styles/pp.css">
     <link rel="icon" type="image/x-icon" href="../favicon.ico">
 </head>
 
@@ -18,13 +18,13 @@
         <div class="container-2 col-lg-6">
             <div style="width: 100%; padding-left: 10%; padding-right: 10%" class="w-100">
                 <hr style="border-color: black; margin-bottom: 30px" />
-                <p class="rubik" style="font-size: 25px;">Position Paper Guide</p>
+                <p class="rubik text-center" style="font-size: 25px;">Position Paper Guide</p>
                 <hr style="border-color: black; margin-top: 30px" />
             </div>
         </div>
     </div>
 
-    <div class="container-3 row" style="display: flex; justify-content: center; padding-left: 10%; padding-right: 10%">
+    <div class="container-3 row" style="display: flex; justify-content: center; padding: 0 10%; width: 100%">
         <div class="container-4 col-lg-8" style="height: auto; margin-bottom: 30px">
             <p style="font-size: 20px;"><b>Position Paper Overview</b></p>
             <p>The Olonlog Academy MUN requires the delegates to submit a position paper for entry. "Position Papers consist information outlining each delegation's policies on the topics being discussed in their specific committee. The position paper helps the delegates organize their ideas and share their foreign policy with the rest of the committee." - www.uml.edu</p>
@@ -57,7 +57,7 @@
                 </ul>
                 <p>An example is provided below:</p>
                 <img style="width: 100%" src="../public/images/ppgh2.png" />
-                <p>
+                <p class="example-text">
                     "The Central African Republic has been burdened with wars and dictatorships since the
                     1960’s, and despite being endowed with internationally coveted resources such as
                     expansive diamond minds, 73% of its population live on less than US $1 a day. During the

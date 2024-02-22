@@ -18,7 +18,7 @@
         <div class="container-2 col-lg-6">
             <div style="width: 100%; padding-left: 10%; padding-right: 10%" class="w-100 p-10%">
                 <hr style="border-color: black; margin-bottom: 30px" />
-                <p class="rubik" style="font-size: 25px;">OAMUN Committees</p>
+                <p class="rubik text-center" style="font-size: 25px;">OAMUN Committees</p>
                 <hr style="border-color: black; margin-top: 30px" />
             </div>
         </div>
